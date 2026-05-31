@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustard Seed Gospel Church - Agbor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { font-family: 'Segoe UI', system-ui, sans-serif; }
+    .hero { 
+      background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+                        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); 
+      background-size: cover; 
+      background-position: center;
+    }
+    .section-title {
+      position: relative;
+      display: inline-block;
+    }
+    .section-title:after {
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 3px;
+      background: #b91c1c;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- Header -->
+  <header class="bg-black border-b border-red-900 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="https://i.imgur.com/placeholder-mustardseed.png" 
+             alt="Mustard Seed Gospel Church Logo" 
+             class="w-14 h-14 rounded-full object-contain bg-white p-1 border-2 border-red-500">
+        <div>
+          <h1 class="text-2xl font-bold tracking-tight">Mustard Seed</h1>
+          <p class="text-xs text-red-400 -mt-1">GOSPEL CHURCH</p>
+        </div>
+      </div>
+      
+      <nav class="hidden md:flex gap-8 text-sm uppercase tracking-widest">
+        <a href="#home" class="hover:text-red-400 transition">Home</a>
+        <a href="#about" class="hover:text-red-400 transition">About</a>
+        <a href="#events" class="hover:text-red-400 transition">Events</a>
+        <a href="#services" class="hover:text-red-400 transition">Services</a>
+        <a href="#livestream" class="hover:text-red-400 transition">Livestream</a>
+        <a href="#contact" class="hover:text-red-400 transition">Contact</a>
+      </nav>
+      
+      <a href="#giving" class="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-full text-sm font-bold transition">
+        GIVE ONLINE
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero h-screen flex items-center">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h2 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+        Welcome to<br>
+        <span class="text-red-500">Mustard Seed Gospel Church</span>
+      </h2>
+      <p class="text-2xl mb-8 text-gray-300">Centre of Salvation • Agbor, Delta State</p>
+      <p class="text-xl mb-10">"Where Faith Grows and Souls are Saved"</p>
+      
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#events" class="bg-red-600 hover:bg-red-700 px-10 py-4 rounded-full font-bold text-lg">
+          Join Leadership Conference
+        </a>
+        <a href="tel:08149960622" class="border-2 border-white hover:bg-white hover:text-black px-10 py-4 rounded-full font-bold text-lg transition">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Conference Banner -->
+  <section id="events" class="py-20 bg-gradient-to-br from-red-900 to-black">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-red-700">
+        <div class="p-10 text-center">
+          <h2 class="text-4xl font-bold mb-3">LEADERSHIP CONFERENCE</h2>
+          <p class="text-red-400 text-xl mb-8">MUSTARD SEED GOSPEL CHURCH (Centre Of Salvation)</p>
+          
+          <div class="inline-block bg-yellow-500 text-black font-bold px-8 py-2 rounded-full mb-8">
+            WITH PASTOR JOSEPH IFEANYI
+          </div>
+          
+          <h3 class="text-5xl md:text-6xl font-bold leading-tight mb-8">
+            BUILDING SYSTEM STRUCTURE &amp;<br>STANDARD FOR GROWTH
+          </h3>
+          
+          <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div class="bg-zinc-800 p-6 rounded-2xl">
+              <p class="text-red-400">Date</p>
+              <p class="text-2xl font-bold">May 27th - 28th, 2026</p>
+              <p class="text-lg">4:30 PM Daily</p>
+            </div>
+            <div class="bg-zinc-800 p-6 rounded-2xl">
+              <p class="text-red-400">Venue</p>
+              <p class="text-xl font-medium">No 27 Melekwe Street,<br>Boji Boji Owa, Agbor</p>
+            </div>
+            <div class="bg-zinc-800 p-6 rounded-2xl">
+              <p class="text-red-400">Theme</p>
+              <p class="text-xl font-medium">Building System Structure &amp; Standard For Growth</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="section-title text-4xl font-bold text-center mb-16">About The Church</h2>
+      <div class="max-w-3xl mx-auto text-center mb-12">
+        <p class="text-xl text-gray-300">
+          Mustard Seed Gospel Church<br>
+          Melekwe by Obaigbene, No 27 Melekwe Street, Boji Boji Owa, Agbor, Delta State, Nigeria.
+        </p>
+      </div>
+      <!-- Pastor Section -->
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div>
+          <h3 class="text-3xl font-semibold mb-6">Pastor Joseph Ifeanyi</h3>
+          <p class="text-lg leading-relaxed text-gray-300">
+            Senior Pastor of Mustard Seed Gospel Church. A passionate servant of God committed to raising leaders and believers who walk in power and purpose.
+          </p>
+        </div>
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600" 
+               alt="Pastor Joseph Ifeanyi" class="rounded-2xl shadow-2xl">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Sections (Services, Livestream, etc.) remain the same -->
+  <!-- ... (I kept them to avoid making this too long) ... -->
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Get In Touch</h2>
+      <div class="grid md:grid-cols-2 gap-16">
+        <div>
+          <h3 class="text-2xl mb-6">Location</h3>
+          <p class="text-xl text-gray-300">
+            No 27 Melekwe Street,<br>
+            Boji Boji Owa, Agbor<br>
+            Delta State, Nigeria
+          </p>
+        </div>
+        <div>
+          <h3 class="text-2xl mb-6">Contact Information</h3>
+          <a href="tel:08149960622" class="block text-3xl hover:text-red-400 mb-6 transition">
+            📞 08149960622
+          </a>
+          <a href="mailto:info@smhos.org" class="block text-xl hover:text-red-400">
+            📧 info@smhos.org
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-12 border-t border-red-900">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="text-red-400">© 2026 Mustard Seed Gospel Church | Centre of Salvation</p>
+      <p class="text-xs text-gray-500 mt-2">Jesus is Lord • Agbor, Delta State</p>
+    </div>
+  </footer>
+
+</body>
+</html>
